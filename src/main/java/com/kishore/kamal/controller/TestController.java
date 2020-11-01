@@ -10,6 +10,6 @@ public class TestController {
 //    @ResponseBody
     @RequestMapping("/ping")
     public String ping() {
-        return "/WEB-INF/view/Welcome.jsp";
+        return "Welcome";
     }
 }
