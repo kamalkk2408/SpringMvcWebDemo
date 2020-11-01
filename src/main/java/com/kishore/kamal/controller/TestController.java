@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class TestController {
 
-    @ResponseBody
+//    @ResponseBody
     @RequestMapping("/ping")
     public String ping() {
-        return "ALL IS WELL";
+        return "/WEB-INF/view/Welcome.jsp";
     }
 }
